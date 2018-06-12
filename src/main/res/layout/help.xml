@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:scrollbarThumbVertical="@color/black_overlay"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/heading.howto.draw"
+        android:id="@+id/textView2"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/answer.howto.draw"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/heading.howto.move"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/answer.howto.move"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/heading.howto.select"
+        android:paddingTop="10dp"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/answer.howto.select"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/heading.select.options"
+        android:paddingTop="10dp"
+        android:id="@+id/textView7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/answer.select.options"
+        android:id="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/heading.color.ribbons"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/answer.color.ribbons"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/heading.icons"
+        android:paddingTop="10dp"
+        android:id="@+id/textView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/detail.icons"
+        android:id="@+id/textView10" />
+    
+    <android.support.v4.widget.Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:columnCount="2">
+
+        <ImageView  android:src="@drawable/new_drawing"/>
+        <TextView
+            android:text="@string/detail.new"/>
+
+        <ImageView  android:src="@drawable/save"/>
+        <TextView
+            android:text="@string/detail.save"/>
+
+        <ImageView  android:src="@drawable/undo"/>
+        <TextView
+            android:text="@string/detail.undo"/>
+
+        <TextView
+            android:text="@string/detail.shape.icons"
+            android:layout_columnSpan="2"
+            android:textStyle="bold"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_columnSpan="2"/>
+
+        <ImageView  android:src="@drawable/color_chooser"/>
+        <TextView
+            android:text="@string/detail.colorpicker"/>
+
+        <ImageView  android:src="@drawable/rotate_cw"/>
+        <TextView
+            android:text="@string/detail.roratecw"/>
+
+        <ImageView  android:src="@drawable/rotate_ccw"/>
+        <TextView
+            android:text="@string/detail.rorateccw"/>
+
+
+        <ImageView  android:src="@drawable/delete"/>
+        <TextView
+            android:text="@string/detail.delete"/>
+
+        <ImageView  android:src="@drawable/zoom_in"/>
+        <TextView
+            android:text="@string/detail.zoomin"/>
+
+        <ImageView  android:src="@drawable/zoom_out"/>
+        <TextView
+            android:text="@string/detail.zoomout"/>
+
+        <ImageView  android:src="@drawable/copy"/>
+        <TextView
+            android:text="@string/detail.copy"/>
+    </GridLayout>
+
+    <com.sreenath.apps.lightdraw.views.DefaultButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:id="@+id/okHelp"
+        android:paddingTop="20dp"
+        android:layout_gravity="center_vertical" />
+</LinearLayout>
+</ScrollView>

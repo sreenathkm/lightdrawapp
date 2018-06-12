@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="heading.howto.draw" translatable="false">How can I draw shapes?</string>
+    <string name="answer.howto.draw" translatable="false">Draw a shape by creating dots on the canvas. Suggestions will appear on the top panel. Select one suggestion to draw it on the canvas.</string>
+    <string name="heading.howto.select" translatable="false">How can I select a shape?</string>
+    <string name="answer.howto.select" translatable="false">Double-tap on a shape to select it. Its corners will become highlighted on selection.</string>
+    <string name="heading.howto.move" translatable="false">How can I move a shape?</string>
+    <string name="answer.howto.move" translatable="false">Simply drag a shape to move it anywhere you like.</string>
+    <string name="heading.color.ribbons" translatable="false">What are the red, green and blue ribbons in the color chooser popup?</string>
+    <string name="answer.color.ribbons" translatable="false">They are used to mix the color of the selected shape. Simply adjust each color by clicking anywhere on the corresponding ribbon. Click on Ok to apply the color to the shape after the mixing.</string>
+    <string name="heading.select.options" translatable="false">What are the options available after a shape is selected?</string>
+    <string name="answer.select.options" translatable="false">There are Zoom, Rotate, Delete Shape and Change Color options.</string>
+
+    <string name="heading.icons" translatable="false">Icons</string>
+    <string name="detail.icons" translatable="false">The icons and their corresponding operations.</string>
+    <string name="detail.shape.icons" translatable="false">Below are applied to the selected shape.</string>
+
+    <string name="detail.colorpicker" translatable="false">Color chooser. Mix the red, green and blue colors.</string>
+    <string name="detail.save" translatable="false">Save the drawing to an image.</string>
+    <string name="detail.new" translatable="false">Create a new canvas for drawing.</string>
+    <string name="detail.undo" translatable="false">Undo the last corner of the currently drawn shape.</string>
+    <string name="detail.roratecw" translatable="false">Rotate the shape in clockwise direction.</string>
+    <string name="detail.rorateccw" translatable="false">Rotate the shape in couner-clockwise direction.</string>
+    <string name="detail.zoomin" translatable="false">Zoom-in the shape.</string>
+    <string name="detail.zoomout" translatable="false">Zoom-out the shape.</string>
+    <string name="detail.delete" translatable="false">Delete the shape.</string>
+    <string name="detail.copy" translatable="false">Copy and paste the shape.</string>
+
+
+    <string name="message.switched.to.select" translatable="false">SELECT mode : touch any shape for options. Double tap for DRAW mode.</string>
+    <string name="message.switched.to.draw" translatable="false">DRAW mode : Touch to create corners. Long press for SELECT mode.</string>
+
+    <string name="title.save.before.new.canvas" translatable="false">Save Changes?</string>
+    <string name="message.save.before.new.canvas" translatable="false">Do you want to save changes to the existing image before creating new?</string>
+
+    <string name="title.save.notification" translatable="false">Image saved</string>
+    <string name="message.save.notification" translatable="false">The image is saved successfully.</string>
+
+    <string name="startup.help.dont.show.this" translatable="false">Do not show this message on startup</string>
+
+    <string name="startup.help.message" translatable="false">
+        Tap on screen to create multiple points. Suggestions will appear on top. Click to select a suggestion.\n\n
+        Double-tap to select any shape to color, zoom, rotate, delete etc.\n\n
+        Simply drag to move shapes.\n\n
+    </string>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+    </style>
+
+    <item name="whiteColor" type="color">#ffffff</item>
+</resources>

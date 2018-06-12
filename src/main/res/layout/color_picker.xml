@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#cccccc"
+        android:layout_weight="1">
+        <com.sreenath.apps.lightdraw.views.ColorOption
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#ff0000"
+            android:layout_weight="1"/>
+
+        <com.sreenath.apps.lightdraw.views.ColorOption
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#00ff00"
+            android:layout_weight="1"/>
+
+        <com.sreenath.apps.lightdraw.views.ColorOption
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#0000ff"
+            android:layout_weight="1"/>
+
+        <com.sreenath.apps.lightdraw.views.ColorOption
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#FFFF00"
+            android:layout_weight="1"/>
+
+        <com.sreenath.apps.lightdraw.views.ColorOption
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#00FFFF"
+            android:layout_weight="1"/>
+
+        <com.sreenath.apps.lightdraw.views.ColorOption
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#FF00FF"
+            android:layout_weight="1"/>
+
+        <com.sreenath.apps.lightdraw.views.ColorOption
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:layout_weight="1"/>
+        <com.sreenath.apps.lightdraw.views.ColorOption
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+        <com.sreenath.apps.lightdraw.layouts.ColorChooserLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#ffe0e0e0"
+            android:id="@+id/progressBar"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:layout_weight="7"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1.5">
+        <com.sreenath.apps.lightdraw.views.DefaultButton
+            android:text="Ok"
+            android:id="@+id/okButton"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.sreenath.apps.lightdraw.views.DefaultButton
+            android:text="Cancel"
+            android:id="@+id/cancelButton"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+    <com.sreenath.apps.lightdraw.views.ColorChooserPreviewView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="#ffffffff"
+        android:id="@+id/previewView"
+        >
+        </com.sreenath.apps.lightdraw.views.ColorChooserPreviewView>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#aaaacc"
+        ads:adUnitId="ca-app-pub-3109420424273747/2807304702"
+        ads:adSize="BANNER"
+        android:id="@+id/bannerAd"
+        >
+
+    </com.google.android.gms.ads.AdView>
+</LinearLayout>
